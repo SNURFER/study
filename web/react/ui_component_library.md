@@ -24,7 +24,7 @@
 ### 최근 동향
 * 빠른 기술 동향으로 최근 5년간 점유율은 계속 바뀌고 있음
 * 주로사용하는 상위 제품은 머테리얼, 부트스트랩, Ant 등등
-
+---
 ### Material UI
 * [특징](https://flatlogic.com/blog/bootstrap-vs-material-ui-which-one-to-use-for-the-next-web-app/)
 	* MIT 라이센스
@@ -52,7 +52,7 @@
 		* 머테리얼 디자인은 서드파티 없이 순수 css로 함
 	* 개발 속도가 부트스트랩보다는 느림 하지만 템플릿을 사용하면 빨라질 수 있음
 	* 수 많은 ui들이 존재해서 평균적인 ux와의 일치성은 떨어지지만 커스텀이 수월함 
-
+---
 ### BootStrap
 * [특징](https://flatlogic.com/blog/bootstrap-vs-material-ui-which-one-to-use-for-the-next-web-app/)
 	* MIT 라이센스
@@ -79,10 +79,10 @@
 * 2019년 이전에는 제일 많이 쓰였음
 * stateless. 함수 컴포넌트와 hooks를 이용하고 있음 
 * jQuery 의존성
-	*[ 최근까진 의존성 있었으나 더이상은 의존성을 가지지 않는다고 함](https://www.geeksforgeeks.org/difference-between-reactstrap-and-react-bootstrap/)
+	* [ 최근까진 의존성 있었으나 더이상은 의존성을 가지지 않는다고 함](https://www.geeksforgeeks.org/difference-between-reactstrap-and-react-bootstrap/)
 * CSS 라이브러리를 기반으로 만들어짐
 	* CSS에 대한 이해나 경험이 필요 
-
+---
 ### Fluent UI 
 * MIT license
 	* [fabric assets 들중 MS office를 연상 시키는 것들에 대한 제약이 있음](https://static2.sharepointonline.com/files/fabric/assets/microsoft_fabric_assets_license_agreement_nov_2019.pdf)
@@ -102,7 +102,7 @@
 		* 다양한 인풋에 대한 지원 
 		* 공간감 있는 텍스트
 	* virtual reality app을 위한 디자인을 제공할 예정
-
+---
 ### Ant Design
 * 중국 알리바바에서 개발 됨 
 	* 텐센트, 알리바바 등에 사용됨

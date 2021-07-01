@@ -120,7 +120,7 @@
 |점유율|제일 많음|많음|적음|많음|
 |컴포넌트수|많음|[제일 많음](https://www.upgrad.com/blog/bootstrap-vs-material/)|모름|보통|
 |커스터마이징|보통|보통이하|보통|보통|
-|유지보수|좋음|[제일 좋음]((https://jelvix.com/blog/bootstrap-vs-material))|좋음|좋음|
+|유지보수|좋음|[제일 좋음](https://jelvix.com/blog/bootstrap-vs-material)|좋음|좋음|
 |편의성|좋음|좋음|좋음|좋음|
 |호환성|좋음|모름|좋음||
 

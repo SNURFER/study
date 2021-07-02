@@ -47,11 +47,12 @@
 	* 테마 기반으로 제작 가능 
 	* 여러 서드파티 라이브러리와 연동 가능 
 	* 타입스크립트 플로우 타입 모두 지원  
+	* 번들사이즈 314kb
 * 단점
 	* 리액트 베이스로만 가능
 		* 머테리얼 디자인은 서드파티 없이 순수 css로 함
 	* 개발 속도가 부트스트랩보다는 느림 하지만 템플릿을 사용하면 빨라질 수 있음
-	* 수 많은 ui들이 존재해서 평균적인 ux와의 일치성은 떨어지지만 커스텀이 수월함 
+	* 수 많은 ui들이 존재해서 평균적인 ux와의 일관성은 떨어지지만 커스텀이 수월함 
 ---
 ### BootStrap
 * [특징](https://flatlogic.com/blog/bootstrap-vs-material-ui-which-one-to-use-for-the-next-web-app/)
@@ -70,12 +71,14 @@
 		* 필요없는 컴포넌트들과 js스크립트를 없애면 해결 가능 
 	*  javascript framework(특히 jQuery), css class 등의 의존성을 가질 수 있음 
 		* react용으로 나온게 ReactStrap, react bootstrap 임
+			* 컴포넌트의 사용방식에 따라 보통 사용함
 	
 #### ReactStrap(bootstrap 4기반)
-* [클래스 컴포넌트를 사용하여 state관리를 하는 예제가 많이 있음](https://www.geeksforgeeks.org/difference-between-reactstrap-and-react-bootstrap/)
-* [특정 컴포넌트 들을 사용하기 위해 jQuery 의존성 가짐](https://hudi.kr/reactstrap-bootstrap4%EB%A5%BC-react%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/)
+* [클래스 컴포넌트를 사용하여 state관리](https://www.geeksforgeeks.org/difference-between-reactstrap-and-react-bootstrap/)
+* jQuery 의존성을 가지지 않음
 
 #### React Bootstrap(더 많이 사용)
+* 번들사이즈 180kb
 * 2019년 이전에는 제일 많이 쓰였음
 * stateless. 함수 컴포넌트와 hooks를 이용하고 있음 
 * jQuery 의존성
@@ -109,7 +112,7 @@
 * Typescript 기반으로 제작된 라이브러리
 * 개발이 쉬움 
 * 커스터마이징 할 수 있는 버튼이 적음 
-* 번들사이즈가 가장 큼
+* 번들사이즈가 가장 큼 2.2mb
 ---
 
 
@@ -118,11 +121,11 @@
 |항목| Material UI| Bootstrap| fluent UI| Ant Design|
 |:--:|:--:|:--:|:--:|:--:|
 |점유율|제일 많음|많음|적음|많음|
-|컴포넌트수|많음|[제일 많음](https://www.upgrad.com/blog/bootstrap-vs-material/)|모름|보통|
+|컴포넌트수|많음|[제일 많음](https://www.upgrad.com/blog/bootstrap-vs-material/)|보통|적음|
 |커스터마이징|보통|보통이하|보통|보통|
 |유지보수|좋음|[제일 좋음](https://jelvix.com/blog/bootstrap-vs-material)|좋음|좋음|
 |편의성|좋음|좋음|좋음|좋음|
-|호환성|좋음|모름|좋음||
+|호환성|좋음|[모름](https://techblog.woowahan.com/2599/)|좋음||
 
 *  [커스터마이징은 각 디자인 원리에서 벗어나긴 힘들다.](https://stackoverflow.com/questions/55469841/react-is-using-ui-framework-still-benefical-when-you-to-customize-styles-heavil)
 * Material/Bootstrap 혼합도 가능

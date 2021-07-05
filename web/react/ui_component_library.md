@@ -36,6 +36,7 @@
 		* 기존의 안드로이드 UX의 단점을 극복하여 통일성 있는 사용자 경험을 제공하고자 개발됨
 			* 미니멀리즘
 			* 플랫디자인에 입체감과 원근감을 더함
+		* 대쉬보드 형식에 주로 많이 사용됨
 	* 구글에서 만들었음
 		* long time support 가능
 	* 나사, 아마존, 유니티, 구글, jp모건 등에 사용됨
@@ -44,10 +45,14 @@
 	* 사용자 친화적 (모바일 우선) 
 	* jQuery를 사용안하고 있음 
 		* jQuery를 사용하게 되면 React의 Virtual DOM개념과 섞여 문제가 발생할 수 있음 (어떤 문제인지 확인)
-	* 테마 기반으로 제작 가능 
+	* [테마 기반으로 제작 가능](https://material-ui.com/customization/components/#overriding-styles-with-classes)
+	* [css override 가능](https://material-ui.com/customization/components/#overriding-styles-with-classes)
 	* 여러 서드파티 라이브러리와 연동 가능 
 	* 타입스크립트 플로우 타입 모두 지원  
 	* 번들사이즈 314kb
+	* 머티리얼 UI pro
+		* xgrid 라는 component가 추가됨 
+		* 대시보드 특화, Excel 과 비슷한 기능들을 제공하는 컴포넌트
 * 단점
 	* 리액트 베이스로만 가능
 		* 머테리얼 디자인은 서드파티 없이 순수 css로 함
@@ -112,7 +117,10 @@
 * Typescript 기반으로 제작된 라이브러리
 * 개발이 쉬움 
 * 커스터마이징 할 수 있는 버튼이 적음 
+* [커스터마이징이 자유로움](https://stackoverflow.com/questions/63218673/should-i-use-ant-design-or-materialui-or-react-bootstrap)
 * 번들사이즈가 가장 큼 2.2mb
+* 문서화가 중국어 기반으로 되어있음
+* [애니메이션을 없앨 수는 있음](https://github.com/ant-design/ant-design/issues/951)
 ---
 
 
